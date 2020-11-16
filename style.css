@@ -1,0 +1,73 @@
+
+body {
+            background-color: grey;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: normal;
+            color: rgb(247, 141, 11);
+            font-size: 22px;
+}
+
+.heading{
+
+    text-decoration: underline;
+}
+
+.main{
+text-decoration: underline;
+text-align: center;
+}
+h1 {
+    font-weight: bold;
+    color: reds;
+    text-size-adjust: 300%;
+}
+p {
+    font-family: inherit;
+    color: #ff8800;
+   
+    padding: inherit;
+}
+.heading {
+    
+    color: honeydew;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0%;
+    border: 0;
+
+}
+.image{
+    background-image: url(..//Practice/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+li {    
+    list-style-type: upper-roman;
+    padding-left: 140px;
+}
+
+.my-list{
+    float: right;
+}
+.introduction{
+    float: right;
+}
+.navbar{
+    height: 200px;
+    width: 400px;
+    float: center;
+    border: none;
+    text-align: left;
+    list-style-image: none;
+    position: center;
+}
+ul li {
+    list-style-type: none;
+}
+#Article{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
