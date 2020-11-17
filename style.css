@@ -71,3 +71,20 @@ ul li {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+#reasonforcomment {
+    position: center;
+    border: 1px;
+    border-color: black;
+}
+.commentWelcome {
+    background-image: url(..//Practice/images/background.jpg);
+    text-align: center;
+    outline: 1px solid white;
+}
+.textarea {
+    text-align: left;
+    
+}
+.form {
+    
+}
