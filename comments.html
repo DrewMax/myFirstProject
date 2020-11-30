@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Comment page</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div class="commentWelcome">
+        <h1>Welcome to the comments section</h1>
+        <p>Please feel free to post your comment here
+        </p>
+        </div>
+
+    <div>
+
+        <figure class="comImage">
+            <img src="./images/stupid.jpg">
+        </figure>
+     
+    <form class="form">  
+        <label for="fname">First name:</label>
+<input type="text" name="fname" id="fname"><br>
+<label for="lname">Last name</label>
+<input type="text" name="lname" id="lname">
+<br>
+<label for="reasonforcomment">Reason for comment</label>
+<select name="reasonforcomment">
+    <option value="twat">I love your blog</option>
+    <option value="thursday">It is thursday and the pub is closed</option>
+    <option value="nothing">I have literally got nothing better to do!</option>
+    <option value="voice">I will not be ignored</option>
+    <option value="code">Your code could do with some upgrading</option>
+    <option value="something">Some other reason too silly to write</option>
+
+  </select>
+  </div>
+    <br>
+    <div class="textarea">
+        <textarea rows="10" cols="50" name="comment">Enter text here, duh....</textarea>
+        <br>
+    <input type="submit" name="submit" class="button">
+
+    </form>
+  </body>
